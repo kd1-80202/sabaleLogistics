@@ -1,55 +1,19 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+<!DOCTYPE php>
+<php lang="en-US">
 
 
-<!-- Mirrored from etorisoft.com/html/packpro/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Feb 2025 11:11:25 GMT -->
+<!-- Mirrored from etorisoft.com/php/packpro/about.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Feb 2025 11:11:25 GMT -->
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>PackPro - Transportation & Logistics HTML5 Template</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Favicon -->
-	<link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/icon.png">
-	<!-- bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all">
-	<!-- carousel CSS -->
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" media="all">
-	<!-- animate CSS -->
-	<link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all">
-	<!-- font-all-min CSS -->
-	<link rel="stylesheet" href="assets/css/all.min.css" type="text/css" media="all">
-	<!-- font-flaticon CSS -->
-	<link rel="stylesheet" href="assets/css/flaticon.css" type="text/css" media="all">
-	<!-- font-awesome CSS -->
-	<!-- <link rel="stylesheet" href="assets/css/font-awesome-pro.css" type="text/css" media="all"> -->
-	<!-- theme-default CSS -->
-	<link rel="stylesheet" href="assets/css/theme-default.css" type="text/css" media="all">
-	<!-- meanmenu CSS -->
-	<link rel="stylesheet" href="assets/css/meanmenu.min.css" type="text/css" media="all">
-	<!-- transitions CSS -->
-	<link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css" media="all">
-	<!-- venobox CSS -->
-	<link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="all">
-	<!-- bootstrap icons -->
-	<link rel="stylesheet" href="assets/css/bootstrap-icons.css" type="text/css" media="all">
-	<!-- Slick Slider -->
-	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
-	<!-- Main Style CSS -->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
-	<!-- Dropdown CSS -->
-	<link rel="stylesheet" href="assets/css/dropdown.css" type="text/css" media="all">
-	<!-- responsive CSS -->
-	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all">
-	<!-- modernizr js -->
-	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Sabale</title>
+    <link rel="stylesheet" href="assets/css/style.css"> <!-- Ensure the correct path -->
 </head>
 
 <body>
 	<!-- loder -->
     <?php include 'header.php'; ?>
-	<div class="loader-wrapper">
+	<!-- <div class="loader-wrapper">
 		<div class="loader-wrap">
 			<div class="preloader">
 				<div id="packpro-preloader" class="packpro-preloader">
@@ -86,7 +50,7 @@
 		<div class="loader"></div>
 		<div class="loder-section left-section"></div>
 		<div class="loder-section right-section"></div>
-	</div> 
+	</div>  -->
 
 
 
@@ -111,7 +75,7 @@
 						</div>
 						<div class="bratcome-text">
 							<ul>
-								<li><a href="index.html">Home</a></li>
+								<li><a href="index.php">Home</a></li>
 								<li>About Us</li>
 							</ul>
 						</div>
@@ -150,7 +114,82 @@
 						</div>
 					</div>
 				</div>
+
 				<div class="col-lg-6 col-md-12">
+                <div class="row">
+                    <div class="col-xl-6 col-sm-6">
+                        <div class="counter-single-box style-two wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="counter-numbar style-two">
+                                <h4 class="counter">85</h4>
+                                <span>+</span>
+                            </div>
+                            <div class="counter-content style-two">
+                                <h4>Office Staff Employees</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-sm-6">
+                        <div class="counter-single-box style-two wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="counter-numbar style-two">
+                                <h4 class="counter">50</h4>
+                                <span>+</span>
+                            </div>
+                            <div class="counter-content style-two">
+                                <h4>Drivers Count</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-sm-6">
+                        <div class="counter-single-box style-two wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="counter-numbar style-two">
+                                <h4 class="counter">25</h4>
+                                <span>+</span>
+                            </div>
+                            <div class="counter-content style-two">
+                                <h4>Labour Count</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-xl-6 col-sm-6">
+                        <div class="counter-single-box style-two wow fadeInUp" data-wow-delay="1s">
+                            <div class="counter-numbar style-two">
+                                <h4 class="counter">3K</h4>
+                                <span>+</span>
+                            </div>
+                            <div class="counter-content style-two">
+                                <h4>Completed Projects</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-sm-6">
+                        <div class="counter-single-box style-two wow fadeInUp" data-wow-delay="1.2s">
+                            <div class="counter-numbar style-two">
+                                <h4 class="counter">25</h4>
+                            </div>
+                            <div class="counter-content style-two">
+                                <h4>Company Vehicles</h4>
+                                <p>1109 – 8Tons Passing & 22 Feet – 10Tons Passing, Height Vehicle</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-sm-6">
+                        <div class="counter-single-box style-two wow fadeInUp" data-wow-delay="1.4s">
+                            <div class="counter-numbar style-two">
+                                <h4 class="counter">1000</h4>
+                            </div>
+                            <div class="counter-content style-two">
+                                <h4>Commercially Attached Vehicles</h4>
+                                <p>All Kinds of Vehicles</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+				<!-- <div class="col-lg-6 col-md-12">
 					<div class="row">
 						<div class="col-xl-6 col-sm-6">
 							<div class="counter-single-box style-two wow fadeInUp" data-wow-delay="0.2s">
@@ -200,7 +239,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!--==================================================-->
 	<!-- End About Area -->
 	<!--==================================================-->
@@ -226,8 +265,8 @@
 						<div class="row align-items-center">
 							<div class="col-lg-4 col-sm-6">
 								<div class="team-content">
-									<h4><a href="#">James Mary</a></h4>
-									<span>Ceo</span>
+									<h4><a href="#">Sunita Dadasaheb Sabale</a></h4>
+									<span>Director</span>
 								</div>
 							</div>
 							<div class="col-lg-4 col-sm-6">
@@ -251,11 +290,11 @@
 						<div class="row align-items-center">
 							<div class="col-lg-4 col-sm-6">
 								<div class="team-content">
-									<h4><a href="#">Marvin McKinney</a></h4>
-									<span>Web Designer</span>
+									<h4><a href="#">Dadasaheb Mahadev Sabale</a></h4>
+									<span>Joint Director</span>
 								</div>
 							</div>
-							<div class="col-lg-4 col-sm-6">
+							<!-- <div class="col-lg-4 col-sm-6">
 								<div class="team-social">
 									<ul>
 										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -304,7 +343,7 @@
 									<h4><a href="#">Courtney Henry</a></h4>
 									<span>Medical Assistant</span>
 								</div>
-							</div>
+							</div> -->
 							<div class="col-lg-4 col-sm-6">
 								<div class="team-social">
 									<ul>
@@ -345,7 +384,7 @@
 				</div>
 				<div class="col-lg-6 col-md-12">
 					<div class="section-discription">
-						<p>Logistic services involve the movement, storage, and management of goods and materials. Providers ensure efficient supply chain an operations</p>
+						<p> Sabale Logistic services involve the movement, storage, and management of goods and materials. Providers ensure efficient supply chain an operations</p>
 					</div>
 				</div>
 			</div>
@@ -363,8 +402,8 @@
 							</div>
 						</div>
 						<div class="service-content style-three">
-							<h2><a href="service-details.html">Clear Way Logistics</a></h2>
-							<p>Logistic services involve the storage and the management of goods </p>
+							<h2><a href="service-details.php">Clear Way Logistics</a></h2>
+							<p>Sabale Logistic services involve the storage and the management of goods </p>
 						</div>
 						<div class="service-number style-three">
 							<h4>01</h4>
@@ -379,8 +418,8 @@
 							</div>
 						</div>
 						<div class="service-content style-three">
-							<h2><a href="service-details.html"> Clear Way Logistics</a></h2>
-							<p>Logistic services involve the storage and the management of goods </p>
+							<h2><a href="service-details.php"> Clear Way Logistics</a></h2>
+							<p>Sabale Logistic services involve the storage and the management of goods </p>
 						</div>
 						<div class="service-number style-three">
 							<h4>02</h4>
@@ -395,8 +434,8 @@
 							</div>
 						</div>
 						<div class="service-content style-three">
-							<h2><a href="service-details.html">Clear Way Logistics</a></h2>
-							<p>Logistic services involve the storage and the management of goods </p>
+							<h2><a href="service-details.php">Clear Way Logistics</a></h2>
+							<p>Sabale Logistic services involve the storage and the management of goods </p>
 						</div>
 						<div class="service-number style-three">
 							<h4>03</h4>
@@ -427,7 +466,7 @@
 				</div>
 				<div class="col-lg-4 col-md-12">
 					<div class="deliver-title-discription">
-						<p>Logistic services involve the movement a  storage, and management upply chain operations</p>
+						<p> Sabale Logistic services involve the movement a  storage, and management upply chain operations</p>
 					</div>
 				</div>
 			</div>
@@ -446,7 +485,7 @@
 								</div>
 								<div class="deliver-content">
 									<h2><a href="#">Navigate the Logistics Journey</a></h2>
-									<p>Logistic services involve the movement an storage, and management Logistic services involve the movement a  storage Logistic services involve the movement </p>
+									<p>Sabale Logistic services involve the movement an storage, and management Logistic services involve the movement a  storage Logistic services involve the movement </p>
 								</div>
 							</div>
 						</div>
@@ -461,7 +500,7 @@
 									<h2>10</h2>
 									<span>+</span>
 									<h6>Years Of Experiences</h6>
-									<p>Logistic services involve movement storage, and management </p>
+									<p>Sabale Logistic services involve movement storage, and management </p>
 								</div>
 							</div>
 						</div>
@@ -469,7 +508,7 @@
 							<div class="delivery-single-box wow fadeInUp" data-wow-delay="0.8s">
 								<div class="delivery-content">
 									<h4>PerfectCargo Solutions</h4>
-									<p>Logistic services involve movement storage, and management of goods and materials. Providers </p>
+									<p>Sabale Logistic services involve movement storage, and management of goods and materials. Providers </p>
 									<div class="packpro-btn about">
 										<a href="#">Read More <i class="bi bi-arrow-right"></i></a>
 									</div>
@@ -621,47 +660,42 @@
 					<div class="sidebar-info-contents">
 						<div class="content-inner">
 							<div class="sidebar-logo">
-								<a href="index-2.html"><img src="assets/images/logo.png" alt="logo"></a>
+								<a href="index-2.php"><img src="assets/images/logo1.png" alt="logo"></a>
 							</div>
 							<div class="sidebar-widget-menu">
 								<ul>
-									<li class="dropdown"><a href="#" data-toggle="dropdown">Home <i class="icon-arrow"></i></a>
-										<ul class="dropdown-menu">
-											<li><a href="index-2.html">Home One</a></li>
-											<li><a href="index-two.html">Home Two</a></li>
-										</ul>
-									</li>
-									<li class="dropdown"><a href="about.html" data-toggle="dropdown">About</a></li>
+									
+									<li class="dropdown"><a href="about.php" data-toggle="dropdown">About</a></li>
 									<li class="dropdown"><a href="#" data-toggle="dropdown">Service <i class="icon-arrow"></i></a>
 										<ul class="dropdown-menu">
-											<li><a href="service.html">Service</a></li>
-											<li><a href="service-details.html">Service Details</a></li>
+											<li><a href="service.php">Service</a></li>
+											<li><a href="service-details.php">Service Details</a></li>
 										</ul>
 									</li>
 									<li class="dropdown"><a href="#" data-toggle="dropdown">Project <i class="icon-arrow"></i></a>
 										<ul class="dropdown-menu">
-											<li><a href="projects-gallery.html">Project Gellery</a></li>
-											<li><a href="projects-details.html">Project Details</a></li>
+											<li><a href="projects-gallery.php">Project Gellery</a></li>
+											<li><a href="projects-details.php">Project Details</a></li>
 										</ul>
 									</li>
 									<li class="dropdown"><a href="#" data-toggle="dropdown">Blog <i class="icon-arrow"></i></a>
 										<ul class="dropdown-menu">
-											<li><a href="blog.html">Blog Standard</a></li>
-											<li><a href="blog-details.html">Blog Details</a></li>
+											<li><a href="blog.php">Blog Standard</a></li>
+											<li><a href="blog-details.php">Blog Details</a></li>
 										</ul>
 									</li>
 									<li class="dropdown"><a href="#" data-toggle="dropdown">Pages <i class="icon-arrow"></i></a>
 										<ul class="dropdown-menu">
-											<li><a href="about.html">About</a></li>
-											<li><a href="service.html">Service</a></li>
-											<li><a href="projects-gallery.html">Project</a></li>
-											<li><a href="tracking.html">Tracking</a></li>
-											<li><a href="team.html">Team</a></li>
-											<li><a href="blog.html">Blog</a></li>
-											<li><a href="faq.html">Faq</a></li>
+											<li><a href="about.php">About</a></li>
+											<li><a href="service.php">Service</a></li>
+											<li><a href="projects-gallery.php">Project</a></li>
+											<li><a href="tracking.php">Tracking</a></li>
+											<li><a href="team.php">Team</a></li>
+											<li><a href="blog.php">Blog</a></li>
+											<li><a href="faq.php">Faq</a></li>
 										</ul>
 									</li>
-									<li class="dropdown"><a href="contact.html" data-toggle="dropdown">Contacts</a></li>
+									<li class="dropdown"><a href="contact.php" data-toggle="dropdown">Contacts</a></li>
 								</ul>
 							</div>
 							<div class="contact-info">
@@ -772,5 +806,5 @@
 </body>
 
 
-<!-- Mirrored from etorisoft.com/html/packpro/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Feb 2025 11:11:25 GMT -->
-</html>
+<!-- Mirrored from etorisoft.com/php/packpro/about.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Feb 2025 11:11:25 GMT -->
+</php>

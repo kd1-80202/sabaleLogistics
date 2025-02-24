@@ -6,7 +6,7 @@
     <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>PackPro - Transportation & Logistics php5 Template</title>
+    <title>sabale- Transportation & Logistics php5 Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -50,15 +50,15 @@
 				<div class="col-lg-10">
                 <div class="header-menu style-two">
 						<ul>
-							<li><a href="#">Home</a>
-								<!-- <div class="sub-menu">
+						<li><a href="index.php">Home</a></li>
+						        <!-- <div class="sub-menu">
 									<ul>
 										<li><a href="index-2.php">Home One</a></li>
 										<li><a href="index-two.php">Home Two</a></li>
 									</ul>
 								</div> -->
 							</li>
-							<li><a href="about.php">About Us </a></li>
+							<li><a href="about.php">About Us</a></li>
 							<li><a href="#">Services <i class="bi bi-chevron-down"></i></a>
 								<div class="sub-menu">
 									<ul>
@@ -67,14 +67,15 @@
 									</ul>
 								</div>
 							</li>
-							<li><a href="#">Projects <i class="bi bi-chevron-down"></i></a>
+							<li><a href="clients.php">Clients</a></li>
+							<!-- <li><a href="#">Projects <i class="bi bi-chevron-down"></i></a>
 								<div class="sub-menu">
 									<ul>
 										<li><a href="projects-gallery.php">Project Gellery</a></li>
 										<li><a href="projects-details.php">Project Details</a></li>
 									</ul>
 								</div>
-							</li>
+							</li> -->
 							<li><a href="contact.php">Blog <i class="bi bi-chevron-down"></i></a>
 								<div class="sub-menu">
 									<ul>
@@ -88,9 +89,9 @@
 									<ul>
 										<li><a href="about.php">About</a></li>
 										<li><a href="service.php">Service</a></li>
-										<li><a href="projects-gallery.php">Project</a></li>
+										<li><a href="clients.php">Clients</a></li>
+										<!-- <li><a href="projects-gallery.php">Project</a></li> -->
 										<li><a href="tracking.php">Tracking</a></li>
-										<li><a href="team.php">Team</a></li>
 										<li><a href="blog.php">Blog</a></li>
 										<li><a href="faq.php">Faq</a></li>
 									</ul>
@@ -119,17 +120,17 @@
 	</header>
 
 	<!-- packpro Mobile Menu Area -->
-	<!-- <div class="mobile-menu-area sticky-menu" id="navbar">
+	<div class="mobile-menu-area sticky-menu" id="navbar">
 		<div class="mobile-menu">
 			<div class="mobile-logo">
-				<a href="index-2.php"><img src="assets/images/logo.png" alt=""></a>
+				<a href="index.php"><img src="assets/images/logo1.png" alt=""></a>
 			</div>
 			<div class="side-menu-info">
 				<div class="sidebar-menu">
-					<a class="navSidebar-button" href="#"><i class="bi bi-justify-right"></i></a>
+					<a class="navSidebar-button" href="#"><i class="bi bi-justify-center"></i></a>
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>
 </body>
 </php>

@@ -2144,7 +2144,7 @@ ul.accordion li {
     display: inline-flex;
     align-items: center;
     border-radius: 0 30px 30px 0;
-    background: #FFFF21;
+    background: #EB2A2E;
 }
 
 .submit-button {
@@ -2261,6 +2261,7 @@ button.submit-button i {
 
 
 
+
 /*===============================================================
 <-- Home Page Two  Css-->
 =================================================================*/
@@ -2344,7 +2345,7 @@ button.submit-button i {
 .header-sidebar.style-two a {
     height: 62px;
     width: 62px;
-    background: #FFFF21;
+    background: #EB2A2E;
     display: inline-block;
     line-height: 62px;
     text-align: center;
@@ -2383,7 +2384,7 @@ section.banner-section.style-two {
 
 .form-box-button.style-two button {
     width: 100%;
-    background: #FFFF21;
+    background: #EB2A2E;
     color: #0F1B24;
     transition: 0.5s;
 }

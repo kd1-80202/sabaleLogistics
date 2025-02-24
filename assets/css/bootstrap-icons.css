@@ -14,7 +14,6 @@ url("fonts/bootstrap-iconsd862.woff?8d200481aa7f02a2d63a331fc782cfaf") format("w
   font-weight: normal !important;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
   vertical-align: -.125em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -576,7 +575,7 @@ url("fonts/bootstrap-iconsd862.woff?8d200481aa7f02a2d63a331fc782cfaf") format("w
 .bi-emoji-sunglasses::before { content: "\f329"; }
 .bi-emoji-wink-fill::before { content: "\f32a"; }
 .bi-emoji-wink::before { content: "\f32b"; }
-.bi-envelope-fill::before { content: "\f32c"; }
+.bi-envelope-fill::before { content: "\f32c"; color:white}
 .bi-envelope-open-fill::before { content: "\f32d"; }
 .bi-envelope-open::before { content: "\f32e"; }
 .bi-envelope::before { content: "\f32f"; }
@@ -763,7 +762,7 @@ url("fonts/bootstrap-iconsd862.woff?8d200481aa7f02a2d63a331fc782cfaf") format("w
 .bi-gear-wide::before { content: "\f3e4"; }
 .bi-gear::before { content: "\f3e5"; }
 .bi-gem::before { content: "\f3e6"; }
-.bi-geo-alt-fill::before { content: "\f3e7"; }
+.bi-geo-alt-fill::before { content: "\f3e7"; color: white;}
 .bi-geo-alt::before { content: "\f3e8"; }
 .bi-geo-fill::before { content: "\f3e9"; }
 .bi-geo::before { content: "\f3ea"; }
@@ -1224,7 +1223,7 @@ url("fonts/bootstrap-iconsd862.woff?8d200481aa7f02a2d63a331fc782cfaf") format("w
 .bi-tags-fill::before { content: "\f5b1"; }
 .bi-tags::before { content: "\f5b2"; }
 .bi-telegram::before { content: "\f5b3"; }
-.bi-telephone-fill::before { content: "\f5b4"; }
+.bi-telephone-fill::before { content: "\f5b4"; color:white}
 .bi-telephone-forward-fill::before { content: "\f5b5"; }
 .bi-telephone-forward::before { content: "\f5b6"; }
 .bi-telephone-inbound-fill::before { content: "\f5b7"; }
@@ -1491,7 +1490,10 @@ url("fonts/bootstrap-iconsd862.woff?8d200481aa7f02a2d63a331fc782cfaf") format("w
 .bi-send-slash::before { content: "\f6bd"; }
 .bi-send-x-fill::before { content: "\f6be"; }
 .bi-send-x::before { content: "\f6bf"; }
-.bi-send::before { content: "\f6c0"; }
+.bi-send::before {
+  content: "\f6c0";
+  color: white;
+}
 .bi-steam::before { content: "\f6c1"; }
 .bi-terminal-dash-1::before { content: "\f6c2"; }
 .bi-terminal-dash::before { content: "\f6c3"; }
